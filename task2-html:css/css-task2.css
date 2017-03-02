@@ -1,0 +1,164 @@
+/*task2:html+css*/
+/*Genera*/
+body {
+	margin:0;
+	background-color:#e6e6e6;
+}
+
+h2 {
+	font-size:1.8em;
+	font-weight:bold;
+}
+
+h3 {
+	font-size:1.5em;
+	font-weight:normal;
+	color:grey;
+	margin-bottom:0;
+}
+
+p.author {
+	font-size:0.9em;
+	color:grey;
+	margin-bottom:0;
+}
+section {
+	padding:20px 20px;
+	margin:20px;
+	background-color:white;
+	box-shadow:5px 5px 5px #a6a6a6;
+}
+
+ul li {
+	list-style-type:none;
+}
+
+/*navigation bar*/
+nav {
+	background-color:black;
+	color:white;
+	margin:0 0 10px 0;
+}
+nav .nav-lists {
+	float:right;
+	margin:20px 0;
+}
+nav .nav-lists ul {
+	margin:0;
+	padding:0;
+}
+
+nav .nav-lists li {
+	display:inline;
+	margin:0 20px;
+	font-size:1.2em;
+}
+
+nav h1 {
+	float:left;
+}
+
+nav .no-float {
+	clear:both;
+}
+
+nav #selected {
+	color:#e6e6e6;
+}
+
+/*images*/
+.images {
+	margin:20px 20px;
+	border:2px solid grey;
+	width: 100px;
+	height:100px;
+}
+.images figcaption {
+	margin:3px;
+	text-align:center;
+}
+.images img {
+	display:block;
+	margin:5px;
+}
+
+/*table*/
+table {
+	border-collapse:collapse;
+	width:100%;
+}
+table,td {
+			border:1px solid grey;
+}
+thead {
+	background-color:black;
+	color:white;
+}
+tfoot {
+	background-color:grey;
+	font-weight:bold;
+}
+
+/*sidebar*/
+.sidebar {
+	position:relative;
+}
+.sidebar h2 {
+	padding-left:10px;
+	border-left:4px solid grey;
+	font-size:1.5em;
+}
+
+.sidebar .info {
+	display:block;
+	margin-bottom:45px;
+	margin-top:30px;
+}
+.sidebar .multi {
+	display:inline-block;
+}
+.sidebar .box,p.explain {
+	position:absolute;
+	left:40%;
+}
+.sidebar p.explain {
+	display:block;
+	font-size:0.8em;
+	color:grey;
+	margin-top:0;
+}
+
+.sidebar label {
+	position:relative;
+	left:22%;
+}
+.sidebar textarea {
+	width:300px;
+	height:50px;
+}
+.sidebar .button {
+	padding-top:20px;
+	width:100%;
+}
+.sidebar .submit-button {
+	background-color:blue;
+	width:100%;
+	color:white;
+	font-weight:bold;
+	border-radius:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+/*footer*/
+footer {
+	background-color:black;
+	margin:0;
+}
+
+footer p {
+	color:white;
+	text-align:center;
+	padding:30px 0;
+	margin:0;
+}

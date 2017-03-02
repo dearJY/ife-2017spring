@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--task2:html+css-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!--Css-->
+	<link rel="stylesheet" href="css-task2.css">
+</head>
+<body>
+	<!--navigation bar-->
+	<nav>
+		<h1>WEBPAGE TITLE</h1>
+			<div class="nav-lists">
+				<ul>
+				  <li><a>link1</a></li>
+				  <li><a>link2</a></li>
+				  <li><a>link3</a></li>
+				  <li id="selected"><a>link4</a></li>
+				</ul>
+			</div>
+		<div class="no-float"></div>
+	</nav>
+
+	<!--paragraph1-->
+	<section>
+		<h2>Title 1</h2>
+		  <h3>Title 2</h3>
+		    <p class="author">Author, Publish Time</p>
+		    <p>balabalabalabala</p>
+		    <p>balabalabalbala<a href="#">inline link</a>balabalabala<b>BOLD</b>balabala</p>
+		    <img src="#" alt="PICTURE">
+		    <p>balabalabala<a href="#"
+		target="_blank">go to another page</a>balabala</p>
+	</section>
+
+	<!--paragraph2-->
+	<section>
+		<h2>Title 1</h2>
+		  <h3>Title 2</h3>
+		    <p class="author">Author, published time</p>
+		    <p>balabalabalabala</p>
+		    <p>balabalabalbala<a href="#">inline link</a>balabalabala<b>BOLD</b>balabala</p>
+		    <div class="images">
+		    	<img src="#" alt="PICTURE">
+			</div>
+		    <ul>
+		      <li>item1</li>
+		      <li>item2</li>
+		      <li>item3</li>
+		    </ul>
+	</section>
+
+	<!--pictures-->
+	<section>
+		  <h3>PICTURES!</h3>
+		    <figure class="images">
+		      <figcaption>p1</figcaption>
+		      <img src="#" alt="p1"></img>
+		    </figure>
+		    <figure class="images">
+		      <figcaption>p1</figcaption>
+		      <img src="#" alt="p1"></img>
+		    </figure>
+		    <figure class="images">
+		      <figcaption>p1</figcaption>
+		      <img src="#" alt="p1"></img>
+		    </figure>
+	</section>
+
+	<!--table-->
+	<section class="tables">
+		<h2>Last Title1</h2>
+		  <h3>Last Title2</h3>
+		    <p class="author">Author, Publish Time</p>
+		    <ol>
+		      <li>1st</li>
+		      <li>2nd</li>
+		      <li>3rd</li>
+		    </ol>
+		    <caption>table title</caption>
+		    <table>
+		      <thead>
+		        <tr>
+		          <td>head1</td>
+		          <td>head2</td>
+		          <td>head3</td>
+		        </tr>
+		      </thead>
+		      <tfoot>
+		        <tr>
+		          <td>foot1</td>
+		          <td colspan="2">foot2</td>
+		        </tr>
+		      </tfoot>
+		      <tbody>
+		      <tr>
+		          <td>content1</td>
+		          <td>content2</td>
+		          <td>content3</td>
+		        </tr>
+		        <tr>
+		          <td>content1</td>
+		          <td>content2</td>
+		          <td>content3</td>
+		        </tr>
+		        <tr>
+		          <td>content1</td>
+		          <td>content2</td>
+		          <td>content3</td>
+		        </tr>
+		      </tbody>
+		    </table>
+	</section>
+
+	<!--sidebar -->
+	<section class="sidebar">
+	<h2>Sidebar Title</h2>
+		  <aside>
+		    <form>
+			    <div class="info">
+				   	<label>Email</label>
+				    <input class="box" type="email" name="email" placeholder="This is an input box"></input>
+				    <p class="explain">Enter your email address as required form</p>
+				</div>
+				<div class="info">
+				   	<label>Enter your password</label>
+				    <input class="box" type="text" name="password" placeholder="This is an input box"></input>
+				</div>
+				<div class="info">
+				   	<label>Enter your password again</label>
+				    <input class="box" type="text" name="password-2" placeholder="This is an input box"></input>
+				    <p class="explain">password should be 6-16 alphanumeric characters in length</p><br>
+				</div>
+				<div class="info">
+				   	<label>Gender</label>
+				    <div class="box multi">
+					    <input type="radio" name="male" checked>Male
+					    <input type="radio" name="Female">Female
+					</div>
+				</div>
+				<div class="info">
+				   	<label>City</label>
+				    <select class="box">
+				      <option value="Beijing">Beijing</option>
+				    </select>
+				</div>
+				<div class="info">
+				   	<label>Hobbies</label>
+				    <div class="box multi">
+					    <input type="checkbox" name="male" checked>sports
+					    <input type="checkbox" name="male">arts
+					    <input type="checkbox" name="male">science
+					</div>
+				</div>
+				<div class="info">
+				   	<label>Personal Statement</label>
+				    <div class="box multi">
+				    	<textarea rows="2" cols="10" placeholder="multiline text"></textarea>
+					</div>
+				</div>
+				<div class="info button">
+				    <input class="submit-button" type="submit" value="confirm and submit">
+				</div>
+		  </form>
+		 </aside>
+	</section>
+
+	<footer>
+		<p>Copyright@</p>
+	</footer>
+</boby>
+</html>
